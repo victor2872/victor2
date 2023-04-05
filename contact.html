@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      /* CSS styles go here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      nav {
+        background-color: #555;
+        color: #fff;
+        padding: 10px;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+      nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      
+      section {
+        padding: 20px;
+        text-align: center;
+        margin-left: 40px;
+        margin-left: 60px;
+      }
+      #form{
+border: 0px solid black;
+height: 300px;
+width: 500px;
+margin-left: 170px;
+      }
+      #form input{
+        margin-top: 20px;
+      }
+      #form button{
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      script{
+margin-left: 170px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-left:  40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </nav>
+    <section>
+      <h2>contact us through the following ways</h2>
+      <blockquote id="form">
+        <form action=""> 
+          <label for="name">name:</label>
+          <input type="text"id="name" name="name" required> <br>
+           <label for="email">Email:</label>
+          <input type="email"id="email" name="email" required> <br>
+          <label for="suject">suject:</label>
+          <input type="subject"id="subject" name="suject" required> <br>
+          <label for="message">message:</label>
+          <textarea sytle="margin-top:20px;" id="message" name="message" required></textarea><br>
+          <button type="submit">send message</button>
+          <script>
+            function show_alert()
+            {
+              alert ("submit information");
+            } 
+          </script>
+          <centre><button type="button" onclick="show_alert()">click here</button></centre>
+         </form>
+      </div>
+    </section>
+    <section>
+      <p> postal address P.O.BOX 30197-00100,Nairobi.</p>
+      <p> Telephone +254703578957</p>
+      <p>email librarian@mutai.ac.ke</p>
+    </section>
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
